@@ -1,0 +1,90 @@
+.fa-brands{
+    color: white;
+}
+.fa-sharp, i{
+    color: white;
+}
+.two{
+    padding: 10px;
+    height: 70px;
+}
+.d-flex{
+    gap: 30px;
+    float: right;
+}
+.num{
+    float: left;
+}
+.navbar-collapse{
+    margin-left: 750px;
+}
+.section{
+    background-image: url(bg-image.jpg);
+    height: 450px;
+    padding: 70px;
+}
+.phone{
+    text-align: center;
+    color: white;
+}
+hr{
+    width: 80px;
+    height: 1px;
+    background-color: white;
+    margin-left: 500px;
+    margin-top: -20px;
+}
+#bm{
+    background-color: rgb(85, 85, 85);
+    height: 100px;
+    display: flex;
+    color: white;
+    justify-content: space-around;
+    
+}
+
+
+#tomiwa{
+    background-color: white;
+    color:black;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    height: 80px;
+    /* margin-top: 20px; */
+    font-size: 20px;
+    padding: 20px;
+}
+
+
+
+
+@media screen and (max-width: 1000px){
+    .navbar-collapse{
+        margin-left: 4px;
+    }
+    .section{
+        height: 550px;
+        padding: 70px;
+    }
+    .phone{
+        text-align: center;
+        color: white;
+        
+    }
+    hr{
+        width: 80px;
+        height: 1px;
+        background-color: white;
+        margin-left: 500px;
+        margin-top: -20px;
+        display: none;
+    }
+    .two-btn{
+        margin-left: -50px;
+        margin-top: 20px;
+    }
+    .last{
+        display: grid;
+    }
+    
+}
